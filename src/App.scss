@@ -1,0 +1,257 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: NeueHaasDisplayRoman;
+  background-color: #0b132b !important;
+  color: #fff !important;
+  overflow-x: hidden !important;
+}
+
+// Navbar section start
+.navbar {
+  background-color: #0b132b;
+
+  .nav-link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
+    margin: 10px 20px;
+
+    &:hover {
+      color: gray;
+    }
+  }
+}
+// Navbar end
+
+// Hero section start
+.hero_section {
+  .container {
+    padding: 100px 12px 0;
+
+    .hero_left {
+      h1 {
+        font-size: 44px;
+        font-weight: 600;
+      }
+      h2 {
+        font-size: 25px;
+        color: #6fffe9c7;
+        font-weight: 400;
+      }
+      .green_btn {
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 4px;
+        border: 1px solid #3a506b;
+        color: #0b132b;
+        background-color: #6fffe9c7;
+        padding: 10px 80px;
+        margin-top: 24px;
+        letter-spacing: 2px;
+
+        &:hover {
+          background-color: #9bfff0c7;
+        }
+      }
+      p {
+        margin-top: 24px;
+        font-size: 0.825em;
+        color: #d63384;
+        word-wrap: break-word;
+      }
+      .buton {
+        margin-top: 24px;
+        button {
+          padding: 10px 30px;
+          font-size: 16px;
+          color: white;
+          background-color: transparent;
+          letter-spacing: 2px;
+          border: 1px solid #6fffe9c7;
+          border-radius: 5px;
+          font-weight: 600;
+          &:hover {
+            background-color: #91bdb6c7;
+          }
+        }
+      }
+    }
+  }
+}
+// Hero section end
+
+// Invest section start
+.invest_bg {
+  .container {
+    padding: 100px 12px 0;
+
+    p {
+      font-size: 23px;
+      color: #6fffe9c7;
+      font-weight: bold;
+      letter-spacing: 1px;
+      margin: 0px;
+      span {
+        font-size: 23px;
+        color: #6fffe9c7;
+        text-transform: uppercase;
+      }
+    }
+    .subs {
+      font-size: 32px;
+      font-weight: 600;
+    }
+    h2 {
+      font-size: 30px;
+      font-weight: 400;
+    }
+
+    .card {
+      background-color: #122845;
+      border-left: 1px solid #5bc0be;
+      border-top: 1px solid #5bc0be;
+      border-right: 1px solid #5bc0be;
+      .head {
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: 2px;
+        font-weight: 300;
+        color: white;
+        text-transform: uppercase;
+      }
+      .one {
+        font-size: 60px;
+        font-weight: 700;
+        letter-spacing: -0.2px;
+        font-family: Montserrat, sans-serif;
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        .upto {
+          position: absolute;
+          top: 10px;
+          font-size: 12px;
+          line-height: 8px;
+          letter-spacing: 2px;
+          color: #6fffe9c7;
+        }
+        .symbol {
+          font-size: 20px;
+        }
+        .vol {
+          font-size: 24px;
+        }
+      }
+      .desc {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-family: Montserrat, sans-serif;
+        font-weight: 600;
+        color: #5bc0be;
+        font-size: 16px;
+      }
+    }
+  }
+}
+// Invest section end
+
+// gateway section
+.gateway_bg {
+  .container {
+    padding: 100px 12px 0;
+
+    .gateway_txt {
+      text-align: center;
+      p {
+        color: #6fffe9c7;
+        font-size: 22px;
+        font-weight: 600;
+        margin: 0px;
+      }
+      h2{
+        font-size: 50px;
+        font-weight: 700;
+      }
+      small{
+        font-size: 17px;
+        font-weight: 450;
+      }
+    }
+  }
+}
+// gateway section end
+
+// Token section 
+.token_bg{
+  background-image: url('./media/images/waves.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0 0 0;
+
+  h2{
+    font-size: 40px;
+    margin-bottom: 12px;
+    font-weight: 700;
+  }
+  p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px;
+  }
+  h3{
+    font-size: 42px;
+    font-weight: 600;
+    color: #5bc0be;
+  }
+
+  .token_list{
+    
+    ul{}
+    li{
+      font-size: 18px;
+      font-weight: 500;
+      text-transform: capitalize;
+      
+    }
+  }
+}
+// Token section end
+
+// Footer section
+.footer{
+  margin: 100px 0 0;
+  .container{
+    padding: 60px 0 20px 10px;
+
+    strong{
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+    ul{
+      padding: 0px;
+    }
+    li{
+      list-style: none;
+      font-size: 16px;
+      color: #6d8bb0;
+      padding: 0 0 0 8px;
+    }
+  }
+  .footer_bottem{
+    margin-top: 40px;
+    padding: 20px 0 0;
+    border-top: 2px solid #3a506b;
+  }
+}
+// Footer section end
