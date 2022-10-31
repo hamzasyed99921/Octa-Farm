@@ -5,11 +5,11 @@ const Header = () => {
     <>
         <nav className="navbar navbar-expand-lg  " style={{zIndex: '1'}} id="navbar_top">
         <div className="container">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand w-50" to="/">
             <img
               src="assets/images/logo.png"
               className="img-fluid "
-              style={{width:'30%'}}
+              style={{width:'40%'}}
               alt="logo"
             />
           </Link>
