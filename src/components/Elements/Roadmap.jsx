@@ -3,7 +3,7 @@ import React from "react";
 const Roadmap = () => {
   return (
     <>
-      {/* <div className="roadmap">
+      <div className="roadmap">
       <div className="raodmap-container">
         <div className="raodmap-section active">
           <div className="raodmap-section-node ">
@@ -30,7 +30,7 @@ const Roadmap = () => {
               <div className="raodmap-text">
                 <div className="raodmap-text-i">
                   <div className="raodmap-text-content">
-                    <ul className="list-minus">
+                    <ul className="list-minus li2">
                       <li>Token Generating Event</li>
                       <li>Audit</li>
                     </ul>
@@ -66,7 +66,7 @@ const Roadmap = () => {
               <div className="raodmap-text">
                 <div className="raodmap-text-i">
                   <div className="raodmap-text-content">
-                    <ul className="list-minus">
+                    <ul className="list-minus li3">
                       <li>Maximizer Pools</li>
                       <li>Strategy Builder</li>
                     </ul>
@@ -96,7 +96,7 @@ const Roadmap = () => {
         </div>
         <div className="raodmap-section long" />
       </div>
-      </div> */}
+      </div>
     </>
   );
 };

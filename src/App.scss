@@ -10,9 +10,10 @@
 
 body {
   background-color: #0b132b !important;
-
+  
   color: #fff !important;
   overflow-x: hidden !important;
+  
 }
 
 // Navbar section start
@@ -77,17 +78,16 @@ body {
     overflow: hidden;
     width: 69em;
     opacity: 0.8;
-    -webkit-animation: oct-back 4s cubic-bezier(0.66, 0, 0, 1) 0s infinite
-      alternate;
-    animation: oct-back 4s cubic-bezier(0.66, 0, 0, 1) 0s infinite alternate;
-    @keyframes oct-back {
-      0% {
-        transform: rotate(0);
-      }
-      100% {
-        transform: rotate(5deg);
-      }
-    }
+        -webkit-animation: oct-back 4s cubic-bezier(.66,0,0,1) 0s infinite alternate;
+    animation: oct-back 4s cubic-bezier(.66,0,0,1) 0s infinite alternate;
+@keyframes oct-back {
+  0%{
+    transform: rotate(0);
+  }
+  100% {
+		transform: rotate(5deg);
+	}
+}
     .img1 {
       top: 0;
       right: 0 !important;
@@ -159,16 +159,16 @@ body {
   }
   .shoot-right {
     animation: shoot-right 3s ease-in-out infinite;
-  }
-  @keyframes shoot-right {
-    0% {
-      transform: translateX(0);
-    }
+}
+@keyframes shoot-right {
+	0% {
+		transform: translateX(0);
+	}
 
-    100% {
-      transform: translateX(100%);
-    }
-  }
+	100% {
+		transform: translateX(100%);
+	}
+}
 }
 // Hero section end
 
@@ -385,15 +385,15 @@ body {
           }
           .symbol {
             position: absolute;
-            top: 10px;
-            font-size: 10px;
-            line-height: 8px;
-            letter-spacing: 2px;
-            color: #6fffe9c7;
+          top: 10px;
+          font-size: 10px;
+          line-height: 8px;
+          letter-spacing: 2px;
+          color: #6fffe9c7;
           }
         }
-        strong {
-          span {
+        strong{
+          span{
             font-weight: 300;
             font-size: 15px;
           }
@@ -402,7 +402,7 @@ body {
       .coming {
         position: absolute;
         display: block;
-        font-size: 8px !important;
+        font-size: 8px!important;
         padding: 3px 8px;
         background-color: #5bc0be;
         color: #0b132b;
@@ -411,7 +411,7 @@ body {
         transform: rotate(-40deg);
         top: 24px;
         left: -4px;
-      }
+    }
     }
   }
 }
@@ -495,103 +495,123 @@ body {
 }
 // Value section end
 
-// Roadmap section
-// .roadmap {
-//   margin-top: 0;
-//   margin-bottom: 40px;
-//   overflow-y: hidden;
-//   overflow-x: auto;
-//   position: relative;
-//   // display: -webkit-flex;
-//   display: flex;
-//   -webkit-overflow-scrolling: touch;
-//   background: url(https://octafarm.fi/_next/static/media/blocks.04d1440….svg)
-//     no-repeat;
-//   background-size: contain;
-//   background-position: 50%;
-// }
-// .raodmap-container {
-//   padding: 250px 0;
-//   text-align: center;
-//   white-space: nowrap;
-//   display: -webkit-flex;
-//   display: flex;
-//   margin: 0 auto;
-// }
+// Roadmap section 
+.roadmap{
+  margin-top: 0;
+    margin-bottom: 40px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    position: relative;
+    display: flex;
+    -webkit-overflow-scrolling: touch;
+    background: url('./media/images/roadmap.png') no-repeat;
+    background-size: contain;
+    background-position: 50%;
+    overflow-y: hidden !important;
+    overflow-x: scroll !important;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    
+  }
+  ::-webkit-scrollbar {
+    display: none;
+}
+.raodmap-container {
+ 
+  
+  padding: 250px 0;
+  text-align: center;
+  white-space: nowrap;
+  display: -webkit-flex;
+  display: flex;
+  // margin: 0 auto;
+}
 
-// .raodmap-section:first-child {
-//   border: 1px solid #99fff0;
-// }
-// .raodmap-section {
-//   width: 150px;
-//   min-width: 150px;
-//   height: 1px;
-//   border: 1px solid #3a506b;
-//   display: inline-block;
-//   vertical-align: middle;
-//   position: relative;
-// }
-// .raodmap-section.active .raodmap-section-node {
-//   background-color: #99fff0;
-// }
-// .raodmap-section-node {
-//   width: 21px;
-//   height: 21px;
-//   border-radius: 50%;
-//   background-color: #3a506b;
-//   border: 4px solid #0b132b;
-//   position: absolute;
-//   top: -10px;
-//   right: -5px;
-//   z-index: 2;
-// }
-// // .raodmap-section.active .raodmap-section-branch {
-// //   background-image: url(
-// //     data:image/svg + xml,
-// //     %3csvgwidth="100%25"height="100%25"xmlns="http://www.w3.org/2000/svg"%3e%3crectwidth="100%25"height="100%25"fill="none"stroke="%235BC0BEFF"stroke-width="4"stroke-dasharray="6%2c 14"stroke-dashoffset="0"stroke-linecap="square"/%3e%3c/svg%3e
-// //   );
-// // }
+.raodmap-section:first-child {
+    border: 1px solid #99fff0;
+}
+.raodmap-section {
+    width: 150px;
+    min-width: 150px;
+    height: 1px;
+    border: 1px solid #3a506b;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+.raodmap-section.active .raodmap-section-node {
+    background-color: #99fff0;
+}
+.raodmap-section-node {
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: #3a506b;
+    border: 4px solid #0b132b;
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    z-index: 2;
+}
+.raodmap-section.active .raodmap-section-branch {
+  border: 1px dashed #99fff0;
+  height: 140px;
+  width: 1px;
+  position: absolute;
+  bottom: 11px;
+  left: 5px;
+}
+.raodmap-section .raodmap-text-title {
+  margin-bottom: 5px;
+  margin-top: -34px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.raodmap-text-content{
+  li{
+    list-style: none;
+    font-size: 16px;
+    color: #d6fff9;
+  }
+}
+.list-minus li:before {
+  content: "-";
+  display: inline-block;
+  width: 1em;
+}
+.raodmap-section.long {
+  width: 280px;
+  min-width: 250px;
+}
+.raodmap-section:nth-child(2n) .raodmap-section-branch {
+  top: 11px;
+}
+.raodmap-section-branch {
+  border: 1px dashed #6d8bb0;
+  height: 140px;
+  width: 1px;
+  position: absolute;
+  bottom: 11px;
+  left: 5px;
+}
+.raodmap-section:nth-child(2n) .raodmap-text-title {
+  margin-bottom: 5px;
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 2px;
 
-// .raodmap-section .raodmap-text {
-//   width: 250px;
-//   white-space: normal;
-//   text-align: left;
-//   position: absolute;
-//   top: -40px;
-//   left: -5px;
-// }
-// .raodmap-section .raodmap-text {
-//   width: 250px;
-//   white-space: normal;
-//   text-align: left;
-//   position: absolute;
-//   top: -40px;
-//   left: -5px;
-// }
-// .raodmap-section.long {
-//   width: 280px;
-//   min-width: 250px;
-// }
-// .raodmap-section-year {
-//   position: absolute;
-//   bottom: 15px;
-//   right: 10%;
-//   font-size: 20px;
-// }
-// .raodmap-section-node {
-//   width: 21px;
-//   height: 21px;
-//   border-radius: 50%;
-//   background-color: #3a506b;
-//   border: 4px solid #0b132b;
-//   position: absolute;
-//   top: -10px;
-//   right: -5px;
-//   z-index: 2;
-// }
-// .raodmap-section:nth-child(2n) .raodmap-section-branch {
-//   top: 11px;
-// }
+}
+.li2{
+  margin-top: 75px;
+}
+.li3{
+  margin-top: 75px;
+}
+
 // Roadmap section end
 
 // Faqs section
@@ -607,6 +627,7 @@ body {
 }
 
 .faq-row {
+  
   // padding: 10px !important;
   // width: 70% !important;
   margin: 10px;
@@ -648,7 +669,7 @@ body {
 .styles_icon-wrapper__2cftw svg {
   fill: white !important;
 }
-.styles_icon-wrapper__2cftw {
+.styles_icon-wrapper__2cftw{
   overflow: hidden;
 }
 
@@ -682,26 +703,31 @@ body {
 }
 // Footer section end
 
+
 @media screen and (max-width: 600px) {
-  .hero_left {
-    h1 {
+  .hero_left{
+    h1{
       font-size: 30px !important;
     }
   }
-  .multiChain {
-    display: none;
-  }
-  .hero_img {
+    .multiChain{
+      display: none;
+    }
+    .hero_img{
     //  display: none;
-  }
-  .buton {
-    button {
-      margin-left: 0% !important;
     }
-  }
-  .cards_sec {
-    .card_2 {
-      margin-left: 0% !important;
+    .buton{
+      button{
+        margin-left: 0% !important;
+      }
     }
-  }
+    .cards_sec{
+      .card_2{
+        margin-left: 0% !important;
+      }
+    }
+
+    .footer{
+      text-align: center;
+    }
 }

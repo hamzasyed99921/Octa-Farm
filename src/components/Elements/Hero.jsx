@@ -95,7 +95,7 @@ const Hero = () => {
               </linearGradient>
             </defs>
           </svg>
-          <div className="row d-flex justify-content-center align-items-center mt-4">
+          <div className="row d-flex justify-content-center align-items-center ">
             <div className="col-md-4 col-12 mt-4 text-center">
               <img src="assets/images/solid.png" className="w-50" alt="" />
             </div>
