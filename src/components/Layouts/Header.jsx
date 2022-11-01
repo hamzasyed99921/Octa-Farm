@@ -27,27 +27,27 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto  text-center mb-2  mb-lg-0">
               <li className="nav-item ">
-                <Link className="nav-link " aria-current="page" to="/technology">
+                <Link className="nav-link " aria-current="page" to="#">
                   Overview
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/community">
+                <Link className="nav-link" to="#">
                   Traction
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/about">
+                <Link className="nav-link" to="#">
                   Tokenomics
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/blog">
+                <Link className="nav-link" to="#">
                   Roadmap
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/build">
+                <Link className="nav-link" to="#">
                   FAQs
                 </Link>
               </li>
