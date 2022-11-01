@@ -419,7 +419,7 @@ body {
 
 // Token section
 .token_bg {
-  background-image: url("./media/images/waves.svg");
+  background-image: url(https://octafarm.fi/_next/static/media/waves.1eeaba970d378e8dc6f4e8bda0e1ac2f.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -730,4 +730,11 @@ body {
     .footer{
       text-align: center;
     }
+    
+}
+
+@media screen and (max-width: 1024px){
+  .multiChain{
+    display: none;
+  }
 }
